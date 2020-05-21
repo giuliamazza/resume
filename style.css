@@ -32,7 +32,7 @@ p {
 }
 .banner h2 {
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 }
 .banner p {
   color: white;
@@ -46,11 +46,11 @@ p {
 
 #left_banner {
   text-align: left;
-  margin-left: 275px;
+  margin-left: 20vw;
 }
 #right_banner {
   text-align: right;
-  margin-right: 275px;
+  margin-right: 20vw;
   margin-top: 35px;
 }
 .button-blue {
@@ -231,5 +231,14 @@ p {
 @media (min-width: 1000px) {
   .container {
     width: 800px;
+  }
+}
+@media (max-width: 800px) {
+  .cards-foot {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-grey {
+    width: auto;
   }
 }
