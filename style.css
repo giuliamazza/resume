@@ -1,8 +1,16 @@
 /* Write some CSS below */
 /* style.css */
+html {
+    display: block;
+    height: 100vh;
+}
+
 body {
-  font-family: Overpass;
-  margin: 0;
+    font-family: Overpass;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 h1, h2, h3 {
@@ -70,9 +78,10 @@ p {
 }
 
 .container {
-    width: 800px;
     margin: auto;
+    margin-top: 80px;
 }
+
 .container h3 {
   text-align: center;
   
